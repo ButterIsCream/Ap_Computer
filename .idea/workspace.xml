@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c303457-6bd0-4dee-9f10-be427142de2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FavClub.java" afterDir="false" />
+    <list default="true" id="1c303457-6bd0-4dee-9f10-be427142de2e" name="Changes" comment="k">
+      <change afterPath="$PROJECT_DIR$/src/Prog52a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,16 @@
       <updated>1662133205662</updated>
       <workItem from="1662133221370" duration="304000" />
       <workItem from="1662475861195" duration="2253000" />
-      <workItem from="1662563300258" duration="318000" />
+      <workItem from="1662563300258" duration="1284000" />
     </task>
+    <task id="LOCAL-00001" summary="k">
+      <created>1662563642858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662563642858</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,5 +71,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="k" />
+    <option name="LAST_COMMIT_MESSAGE" value="k" />
   </component>
 </project>
