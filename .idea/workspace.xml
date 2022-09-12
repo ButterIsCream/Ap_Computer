@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c303457-6bd0-4dee-9f10-be427142de2e" name="Changes" comment="52a input">
-      <change afterPath="$PROJECT_DIR$/src/Prog88a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Prog54c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog54c.java" afterDir="false" />
     </list>
@@ -50,7 +49,7 @@
       <workItem from="1662563300258" duration="1686000" />
       <workItem from="1662565054434" duration="3086000" />
       <workItem from="1662735639961" duration="1590000" />
-      <workItem from="1662994261388" duration="1385000" />
+      <workItem from="1662994261388" duration="2210000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <created>1662563642858</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662736925548</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="52a input">
+      <created>1662995703190</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662995703190</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
