@@ -8,7 +8,8 @@ public class Prog58b {
         int b = 0;
         int c = 0;
 
-        double root = 0;
+        double root1 = 0;
+        double root2 = 0;
 
         System.out.println("Put in A : ");
         a = listner.nextInt();
@@ -17,8 +18,9 @@ public class Prog58b {
         System.out.println("Put in C : ");
         c = listner.nextInt();
 
-        root = (-b + Math.sqrt(Math.pow(b,2) - (4 * a * c))) / (2 * a);
+        root1 = (-b + Math.sqrt(Math.pow(b,2) - (4 * a * c))) / (2 * a);
+        root2 = (-b - Math.sqrt(Math.pow(b,2) - (4 * a * c))) / (2 * a);
 
-        System.out.println("The root is :" + root);
+        System.out.println("The roots are :" + root1 + " ," + root2);
     }
 }
