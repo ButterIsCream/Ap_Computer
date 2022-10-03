@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c303457-6bd0-4dee-9f10-be427142de2e" name="Changes" comment="52a input" />
+    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="eq">
+      <change afterPath="$PROJECT_DIR$/src/Prog285b.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664756808678</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="eq">
+      <created>1664809175752</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664809175752</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="k" />
     <MESSAGE value="52a input" />
-    <option name="LAST_COMMIT_MESSAGE" value="52a input" />
+    <MESSAGE value="eq" />
+    <option name="LAST_COMMIT_MESSAGE" value="eq" />
   </component>
 </project>
