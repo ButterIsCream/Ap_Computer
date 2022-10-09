@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="eq">
-      <change afterPath="$PROJECT_DIR$/src/Prog285b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP4_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP5_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP5_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP5_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LP5_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog122b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog122d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog122h.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog155a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog166e.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog122c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog122c.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +59,15 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1c303457-6bd0-4dee-9f10-be427142de2e" name="Changes" comment="" />
+      <changelist id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="eq" />
       <created>1662133205662</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
