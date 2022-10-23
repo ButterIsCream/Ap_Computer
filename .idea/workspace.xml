@@ -7,6 +7,7 @@
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 10/9/22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Prog213e.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog213e.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prog213e.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/prog213e.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/peter/IdeaProjects/AP_ComputerProg/src/Prog213e.",
+    "last_opened_file_path": "C:/Users/peter/IdeaProjects/AP_ComputerProg/src/data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +48,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\data" />
+      <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\Prog213e." />
+      <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\Prog213e.java" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -194,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666545111945</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="done 10/9/22">
+      <created>1666545795177</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666545795177</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
