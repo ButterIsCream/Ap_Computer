@@ -54,7 +54,8 @@ public class Prog213e {
                 System.out.println(key + "\t" + value.size() + "\t" + per);
             }
         } catch(IOException e) {
-            System.out.println("Look harder");
+            System.out.println("Look harder\n" + "error" +
+                    " : " + e);
         }
 
     }
