@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 10/9/22">
-      <change afterPath="$PROJECT_DIR$/src/Prog209a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog215a.dat" afterDir="false" />
+    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 10/26/2022">
+      <change afterPath="$PROJECT_DIR$/src/Prog82aClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog82aClassMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666823765883</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="done 10/26/2022">
+      <created>1666825102393</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666825102393</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +248,7 @@
     <MESSAGE value="52a input" />
     <MESSAGE value="eq" />
     <MESSAGE value="done 10/9/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 10/9/22" />
+    <MESSAGE value="done 10/26/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 10/26/2022" />
   </component>
 </project>
