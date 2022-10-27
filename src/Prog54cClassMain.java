@@ -8,5 +8,6 @@ public class Prog54cClassMain {
         int rad = input.nextInt();
 
         Prog54cClass util = new Prog54cClass(rad);
+        util.print();
     }
 }

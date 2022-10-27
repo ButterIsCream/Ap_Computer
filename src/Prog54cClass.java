@@ -4,10 +4,9 @@ public class Prog54cClass {
     private void calc(double radius) {
         area = pi * (Math.pow(radius,2));
         cir = 2 * pi * radius;
-        print();
     }
 
-    private void print() {
+    public void print() {
         System.out.printf("The area is %s\nThe circumference is &s",area,cir);
     }
 
