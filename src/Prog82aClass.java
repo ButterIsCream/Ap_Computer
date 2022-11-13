@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prog82aClass {
+public class  Prog82aClass {
     private int speedLim,vSpeed;
     public double fine;
 
