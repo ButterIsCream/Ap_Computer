@@ -1,0 +1,2 @@
+public class BigArray2 {
+}
