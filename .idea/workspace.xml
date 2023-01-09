@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 10/26/2022">
-      <change afterPath="$PROJECT_DIR$/src/MyArrayListLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog215h.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog214c.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog410t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/prog215i.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/survey.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/survey2.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LP3_10_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LP3_10_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LP3_14_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LP3_14_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LP3_14_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LP3_14_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LP3_9_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LP3_9_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LP3_9_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LP3_9_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog213fClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog213fClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog213fClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog213fClassMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog215h.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog215h.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +44,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Peter/IdeaProjects/AP_COMP/src/data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/peter/IdeaProjects/Ap_Computer/src/data&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
       <recent name="C:\Users\Peter\IdeaProjects\AP_COMP\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\Prog213e." />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\Prog213e.java" />
-      <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
