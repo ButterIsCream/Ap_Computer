@@ -47,7 +47,7 @@ public class Prog410t {
                 int income = house.get(1);
                 int members = house.get(2);
                 int provertyLevel = house.get(3);
-
+    
                 if (provertyLevel < averageProverty) {
                     housesBelow++;
                 }
