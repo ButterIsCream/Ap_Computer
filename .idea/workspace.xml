@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/8/23">
-      <change afterPath="$PROJECT_DIR$/src/Prog465b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog465c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog470b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/Prog470a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog464a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog465b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog465c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prog465b.dat" afterDir="false" />
+    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/14/23">
+      <change afterPath="$PROJECT_DIR$/src/Prog464a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog470c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog505a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/prog505a.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prog465a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog465a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Lang285bClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lang285bClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Prog470a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog470a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prog465b.dat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,9 @@
       <recent name="C:\Users\Peter\IdeaProjects\AP_COMP\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\Prog213e." />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -293,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673615879310</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="done 1/14/23">
+      <created>1673731201112</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673731201112</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +325,7 @@
     <MESSAGE value="done 10/9/22" />
     <MESSAGE value="done 10/26/2022" />
     <MESSAGE value="done 1/8/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 1/8/23" />
+    <MESSAGE value="done 1/14/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 1/14/23" />
   </component>
 </project>
