@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/14/23">
-      <change afterPath="$PROJECT_DIR$/src/Prog464a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog470c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog505a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog505a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog402a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Lang285bClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lang285bClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Prog470a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog470a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prog465b.dat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/peter/IdeaProjects/Ap_Computer/src/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kubala.p\IdeaProjects\Easy\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src" />
       <recent name="C:\Users\Peter\IdeaProjects\AP_COMP\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\data" />
-      <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\Prog213e." />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
@@ -69,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LP_5_6">
     <configuration name="LP_5_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LP_5_6" />
       <module name="Ap Computer" />
