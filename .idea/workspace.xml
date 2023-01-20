@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/14/23">
-      <change afterPath="$PROJECT_DIR$/src/LP4_8Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LP_8Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog213fArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog214c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BigArray1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigArray1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +37,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/peter/IdeaProjects/APCOMPUTER/src/data"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\IdeaProjects\APCOMPUTER\src\data" />
       <recent name="C:\Users\kubala.p\IdeaProjects\Easy\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src" />
       <recent name="C:\Users\Peter\IdeaProjects\AP_COMP\src\data" />
-      <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
@@ -53,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LP_5_6">
+  <component name="RunManager">
     <configuration name="LP_5_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LP_5_6" />
       <module name="Ap Computer" />
@@ -285,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673731201112</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="done 1/14/23">
+      <created>1674175690449</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674175690449</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
