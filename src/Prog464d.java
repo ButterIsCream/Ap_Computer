@@ -19,7 +19,7 @@ public class Prog464d {
 
     public static void main(String[] args) {
         try {
-            Scanner input = new Scanner(new File("./src/data/prog464b.dat"));
+            Scanner input = new Scanner(new File("./src/data/prog464a.dat"));
 
             int[][] mat = new int[5][5];
 
