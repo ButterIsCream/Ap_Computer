@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/14/23">
-      <change afterPath="$PROJECT_DIR$/src/Prog402a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog701g/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog701g/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog701g/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog701g/Prog701g.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog701g/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog701g/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog464b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog464d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog477a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog477a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog492h.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog492h.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +60,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.LP_5_6">
-    <configuration name="LP_5_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LP_5_6" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LP_5_6" />
       <module name="Ap Computer" />
       <method v="2">
@@ -68,7 +76,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LP_5_6" />
         <item itemvalue="Application.Prog122i" />
       </list>
     </recent_temporary>

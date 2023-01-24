@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Prog464b {
+public class Prog464d {
     public static int[][] transpose(int[][] mat) {
         int[][] transposed = new int[mat[0].length][mat.length];
 
