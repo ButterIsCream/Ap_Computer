@@ -38,8 +38,8 @@ public class Prog701g {
             double tot = 0;
             int count = 0;
             int totalStud = 0;
-            String sm = "";
-            String large = "laksjdlakjdlaksjdlkasjdlksajdlkajdalkjdoqijwdoiqjwdoqwijdqoiwjdqowdijqodijaosidjizjdoijzsdoijsdzojdzoijdzosijdozisjdzoisjdzoidjzosdjzoidjzidjzosijdoidjwoiajsodij";
+            String large = "";
+            String sm = "laksjdlakjdlaksjdlkasjdlksajdlkajdalkjdoqijwdoiqjwdoqwijdqoiwjdqowdijqodijaosidjizjdoijzsdoijsdzojdzoijdzosijdozisjdzoisjdzoidjzosdjzoidjzidjzosijdoidjwoiajsodij";
 
             for(Person x : list) {
                 if (x instanceof Student) {
@@ -64,8 +64,11 @@ public class Prog701g {
             }
 
             System.out.println("Average GPA : " + String.format("%.2f",(tot/count)));
+            System.out.println("Total number of students taught by teachers : " + totalStud);
+            System.out.println("Smallest favorite admin word : " + sm);
+            System.out.print("Largest favorite admin word : " + large);
         } catch(IOException e) {
-
+            System.out.println(e);
         }
     }
 }
