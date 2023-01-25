@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/14/23">
+    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/25/23">
+      <change afterPath="$PROJECT_DIR$/src/Prog702p/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog702p/Beepers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog702p/Hicca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog702p/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog702p/Prog702p.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog702p/Wallies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prog701g/Prog701g.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog701g/Prog701g.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674578034005</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="done 1/25/23">
+      <created>1674664047405</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1674664047405</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +333,7 @@
     <MESSAGE value="done 10/26/2022" />
     <MESSAGE value="done 1/8/23" />
     <MESSAGE value="done 1/14/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 1/14/23" />
+    <MESSAGE value="done 1/25/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 1/25/23" />
   </component>
 </project>
