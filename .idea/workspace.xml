@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/25/23">
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Beepers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Hicca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Prog702p.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Wallies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog465h.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/prog465h.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/peter/IdeaProjects/Ap_Computer/src/data"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kubala.p\IdeaProjects\Easy\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
+      <recent name="C:\Users\kubala.p\IdeaProjects\Easy\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src" />
       <recent name="C:\Users\Peter\IdeaProjects\AP_COMP\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\AP_ComputerProg\src\data" />
@@ -56,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LP_5_6">
+  <component name="RunManager">
     <configuration name="LP_5_6" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LP_5_6" />
       <module name="Ap Computer" />
