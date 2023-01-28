@@ -6,39 +6,16 @@ import java.util.Scanner;
 public class Prog477a {
     public static void main(String[] args) {
         try {
-            Scanner input = new Scanner(new File("./src/data/prog465h.dat"));
+            Scanner input = new Scanner(new File("./src/data/prog477a.dat"));
             ArrayList<ArrayList<Integer>> nums = new ArrayList<>();
-            ArrayList<ArrayList<Integer>> newSet = new ArrayList<>();
 
             while(input.hasNext()) {
-                int n1 = input.nextInt();
-                int n2 = input.nextInt();
-
                 nums.add(new ArrayList<Integer>());
 
-                for(int i = 0; i < 5;i++) {
-                    int number = input.nextInt();
-                    nums.get(nums.size() - 1).add(number);
-                }
+                nums.get(nums.size() - 1).add(input.nextInt());
             }
 
-            for(int i = 0; i < nums.size(); i++) {
-                int index = 0;
-                ArrayList<Integer> array = nums.get(i);
-
-                for(int num : array) {
-                    if(num != 0) {
-                        ArrayList<Integer> info = new ArrayList<>();
-                        info.add(i);
-                        info.add(index);
-                        info.add(num);
-                        newSet.add(info;
-                    }
-                    index++;
-                }
-            }
-
-            for(ArrayList<Integer> info : newSet) {
+            for(ArrayList<Integer> info : nums) {
                 int colum = info.get(0);
                 int index = info.get(1);
                 int value = info.get(2);
