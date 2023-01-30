@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 1/25/23">
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Beepers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Hicca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Names.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Prog702p.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog702p/Wallies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstClLab/AbstClLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstClLab/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstClLab/NotCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstClLab/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstClLab/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstClLab/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog477a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog477a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog702p/Prog702p.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog702p/Prog702p.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
