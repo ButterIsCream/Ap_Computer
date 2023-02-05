@@ -32,7 +32,7 @@ public class Prog465h {
                         info.add(i);
                         info.add(index);
                         info.add(num);
-                        newSet.add(info;
+                        newSet.add(info);
                     }
                     index++;
                 }

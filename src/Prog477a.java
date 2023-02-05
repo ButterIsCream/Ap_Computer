@@ -7,21 +7,57 @@ public class Prog477a {
     public static void main(String[] args) {
         try {
             Scanner input = new Scanner(new File("./src/data/prog477a.dat"));
-            ArrayList<ArrayList<Integer>> nums = new ArrayList<>();
+
+            int females = 0;
+            int males = 0;
+            int total = 0;
+            ArrayList<ArrayList<Integer>> info = new ArrayList<>();
+            String[] letters = {"A","B","C","D","F"};
+
+            for(int i = 0; i < 5; i++) {
+                info.add(new ArrayList<>());
+            }
 
             while(input.hasNext()) {
-                nums.add(new ArrayList<Integer>());
+                int gender = input.nextInt();
+                int grade = input.nextInt();
 
-                nums.get(nums.size() - 1).add(input.nextInt());
+                ArrayList<Integer> data = info.get(grade - 1);
+                data.add(gender);
+                data.add(grade);
             }
 
-            for(ArrayList<Integer> info : nums) {
-                int colum = info.get(0);
-                int index = info.get(1);
-                int value = info.get(2);
+            System.out.println("Grade\tMale\tFemale\tTotal");
 
-                System.out.printf("%s\t%s\t%s\n",colum,index,value);
+            for(int i = 0; i < info.size(); i++) {
+                int gradefemales = 0;
+                int grademales = 0;
+                int gradetotal = 0;
+                int grade = 0;
+
+
+                ArrayList<Integer> studentData = info.get(i);
+
+                for(int i2 = 0; i2 < studentData.size(); i2+=2 ) {
+                    int gender = studentData.get(i2);
+                    grade = studentData.get(i2 + 1);
+
+                    if(gender == 1) {
+                        grademales++;
+                    } else {
+                        gradefemales++;
+                    }
+                }
+
+                gradetotal = gradefemales + grademales;
+                total += gradetotal;
+                males += grademales;
+                females += gradefemales;
+
+                System.out.printf("%s\t\t%s\t\t%s\t\t%s\n",letters[grade - 1],grademales,gradefemales,gradetotal);
             }
+
+            System.out.printf("Totals\t%s\t\t%s\t\t%s",males,females,total);
         } catch(IOException e) {
             System.out.println(e);
         }
