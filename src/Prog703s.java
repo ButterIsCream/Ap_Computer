@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class Prog703s {
+public class Prog703s {
 }
