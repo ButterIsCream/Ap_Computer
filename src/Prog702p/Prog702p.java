@@ -2,36 +2,52 @@ package Prog702p;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Prog702p {
     public static void main(String[] args) {
         try {
-            Scanner input = new Scanner(new File("data/prog701g.dat"));
-            List<Animal> animalsList = new ArrayList<>();
+            Scanner input = new Scanner(new File("./src/data/prog701g.dat"));
 
-            int animalType = input.nextInt();
+            ArrayList<Animal> info = new ArrayList<>();
 
-            while(animalType != 99) {
-                String f = input.next();
-                String l = input.next();
-                String name = f + " " + l;
-                double value = input.nextDouble();
+            while(input.hasNext()) {
+                int type = input.nextInt();
 
-                if(animalType == 1) {
-                    Animal hicca = new Hicca(f,l,value);
-                    animalsList.add(hicca);
-                } else if(animalType == 2) {
-                    Animal wallies = new Wallies(f,l,value);
-                    animalsList.add(wallies);
-                } else if (animalType == 3) {
-                    Animal beepers = new Beepers(f,l,"X");
-                    animalsList.add(beepers);
+                if (type == 99) {
+                    break;
                 }
 
+                String f = input.next();
+                String l = input.next();
 
-                animalType = input.nextInt();
+                if(type == 1) {
+                    double in = input.nextDouble();
+                    info.add(new Hicca(f,l,"Hicca",in));
+                } else if(type == 2) {
+                    double in = input.nextDouble();
+                    info.add(new Wallies(f,l,"Wallie",in));
+                } else if(type == 3) {
+                    String in = input.next();
+                    info.add(new Beepers(f,l,"Beeper",in));
+                }
+            }
+
+            for(Animal anim : info) {
+                String type = anim.getType();
+                String name = anim.getName();
+                System.out.println(type + " name is: " + name);
+
+                if (type == "Beeper") {
+                    System.out.println(type + " word is : " + ((Beepers)anim).getSpecialWord());
+                } else if (type == "Wallie") {
+                    System.out.println("Waillies steps taken : " + ((Wallies)anim).getDailySteps());
+                } else {
+                    System.out.println("It's fur is worth : " + ((Hicca)anim).getWorth());
+                }
+
+                System.out.println();
             }
         } catch(IOException e) {
             System.out.print(e);

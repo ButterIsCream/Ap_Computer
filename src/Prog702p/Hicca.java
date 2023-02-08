@@ -3,8 +3,8 @@ package Prog702p;
 public class Hicca extends Animal {
     private double furWorth = 0;
 
-    public Hicca(String n,String w,double fur) {
-        super(n,w);
+    public Hicca(String n,String w,String t,double fur) {
+        super(n,w,t);
         furWorth = fur;
     }
 
