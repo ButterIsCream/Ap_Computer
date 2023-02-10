@@ -1,15 +1,20 @@
 package Prog702q;
 
 public class Vehicle implements Names {
-    private int tires = 0;
+    private int tire;
+    private double v;
+    private int type;
     private String name;
-    private double value;
-    public Vehicle(String n,int t,double v) {
-        tires = t;
-        name = n;
-        value = v;
+
+    public Vehicle(int type,String name,int tire,double v) {
+        this.tire = tire;
+        this.type = type;
+        this.name = name;
+        this.v = v;
     }
-    public int getTire() {return tires;}
-    public double getValue() {return value;}
-    public String getName() {return name;}
+
+    public int getTire() {return tire;};
+    public int getType() {return type;}
+    public double getValue() {return v;}
+    public String getName(){return name;}
 }

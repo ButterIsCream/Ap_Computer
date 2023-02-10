@@ -2,15 +2,16 @@ package Prog702p;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class Prog702p {
+
     public static void main(String[] args) {
         try {
             Scanner input = new Scanner(new File("./src/data/prog701g.dat"));
 
             ArrayList<Animal> info = new ArrayList<>();
+            Dictionary<String,Integer> data = new Hashtable<>();
 
             while(input.hasNext()) {
                 int type = input.nextInt();
@@ -40,7 +41,29 @@ public class Prog702p {
                 System.out.println(type + " name is: " + name);
 
                 if (type == "Beeper") {
+                    int largest = 0;
+                    String letter = "";
                     System.out.println(type + " word is : " + ((Beepers)anim).getSpecialWord());
+
+                    for(int i = 0; i < name.length(); i++) {
+                        int end = Math.min(i + 1,name.length() - 1);
+                        String l = name.substring(i,end);
+
+                        if(data.get(l) == -1) {
+                            data.put(l, 0);
+                        } else {
+                            data.put(l,data.get(l) + 1);
+                        }
+                    }
+
+                    for(String key : data.keys()) {
+                        if(data.get(key) > largest) {
+                            largest = data.get(key);
+                            letter = key;
+                        }
+                    }
+
+                    System.out.println("Key");
                 } else if (type == "Wallie") {
                     System.out.println("Waillies steps taken : " + ((Wallies)anim).getDailySteps());
                 } else {

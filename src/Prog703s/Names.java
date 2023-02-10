@@ -1,8 +1,8 @@
-package Prog702q;
+package Prog703s;
 
 public interface Names
 {
     public String getName();
-    public int getTire();
+    public int getNumber();
     public double getValue();
 }

@@ -22,22 +22,7 @@ public class Prog607a {
                 System.out.print("Enter date : ");
                 date = input.next();
             } else if(option == 2) {
-                System.out.print("Enter Code : ");
-                code = input.next();
 
-                int l1,l2,l3,l4;
-                char[] array = code.toCharArray();
-
-                for(int i = 0; i < args.length; i++) {
-                    char l = array[i];
-                    int placment = (int)l;
-
-
-                    if(i == 1) {
-                        l1 = placment - 64;
-                        System.out.println(l1);
-                    }
-                }
             }
         }
     }
