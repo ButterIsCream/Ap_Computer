@@ -3,8 +3,8 @@ package Prog702p;
 public class Wallies extends Animal {
     private double steps = 0;
 
-    public Wallies(String n,String w,String t,double stepsPerDay) {
-        super(n,w,t);
+    public Wallies(String n,String w,double stepsPerDay) {
+        super(n,w);
         steps = stepsPerDay;
     }
 

@@ -20,26 +20,24 @@ public class Prog703s {
 
                 if(type == 3) {
                     int code = input.nextInt();
-                    computers.add(new Linux(name,number,value,type,code));
+                    computers.add(new Linux(name,number,value,code));
                 } else if(type == 2) {
                     double versionNum = input.nextDouble();
-                    computers.add(new Windows(name,number,value,type,versionNum));
+                    computers.add(new Windows(name,number,value,versionNum));
                 } else {
                     String color = input.next();
-                    computers.add(new Apple(name,number,value,type,color));
+                    computers.add(new Apple(name,number,value,color));
                 }
             }
 
             for(Computer computer : computers) {
-                int type = computer.getType();
-
                 System.out.println("Name : " + computer.getName());
                 System.out.println("Number : " + computer.getName());
                 System.out.println("Value : " + computer.getValue());
 
-                if(type == 1) {
+                if(computer instanceof Apple) {
                     System.out.println("Color : " + ((Apple)computer).getColor());
-                } else if(type == 2) {
+                } else if(computer instanceof Windows) {
                     System.out.println("Version : " + ((Windows)computer).getVersion());
                 } else {
                     System.out.println("Code : " + ((Linux)computer).getCode());

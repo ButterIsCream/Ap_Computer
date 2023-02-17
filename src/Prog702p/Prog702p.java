@@ -11,7 +11,6 @@ public class Prog702p {
             Scanner input = new Scanner(new File("./src/data/prog701g.dat"));
 
             ArrayList<Animal> info = new ArrayList<>();
-            Dictionary<String,Integer> data = new Hashtable<>();
 
             while(input.hasNext()) {
                 int type = input.nextInt();
@@ -25,46 +24,26 @@ public class Prog702p {
 
                 if(type == 1) {
                     double in = input.nextDouble();
-                    info.add(new Hicca(f,l,"Hicca",in));
+                    info.add(new Hicca(f,l,in));
                 } else if(type == 2) {
                     double in = input.nextDouble();
-                    info.add(new Wallies(f,l,"Wallie",in));
+                    info.add(new Wallies(f,l,in));
                 } else if(type == 3) {
                     String in = input.next();
-                    info.add(new Beepers(f,l,"Beeper",in));
+                    info.add(new Beepers(f,l,in));
                 }
             }
 
             for(Animal anim : info) {
-                String type = anim.getType();
                 String name = anim.getName();
-                System.out.println(type + " name is: " + name);
+                System.out.println("name is: " + name);
 
-                if (type == "Beeper") {
+                if (anim instanceof  Beepers) {
+                    Beepers beep = ((Beepers)anim);
                     int largest = 0;
-                    String letter = "";
-                    System.out.println(type + " word is : " + ((Beepers)anim).getSpecialWord());
-
-                    for(int i = 0; i < name.length(); i++) {
-                        int end = Math.min(i + 1,name.length() - 1);
-                        String l = name.substring(i,end);
-
-                        if(data.get(l) == -1) {
-                            data.put(l, 0);
-                        } else {
-                            data.put(l,data.get(l) + 1);
-                        }
-                    }
-
-                    for(String key : data.keys()) {
-                        if(data.get(key) > largest) {
-                            largest = data.get(key);
-                            letter = key;
-                        }
-                    }
-
+                    System.out.println("Beepers" + " word is : " + beep.getSpecialWord());
                     System.out.println("Key");
-                } else if (type == "Wallie") {
+                } else if (anim instanceof Wallies) {
                     System.out.println("Waillies steps taken : " + ((Wallies)anim).getDailySteps());
                 } else {
                     System.out.println("It's fur is worth : " + ((Hicca)anim).getWorth());
@@ -72,6 +51,37 @@ public class Prog702p {
 
                 System.out.println();
             }
+
+            String bl = "a";
+            int occured = 0;
+
+            for(Animal anim : info) {
+                if(anim instanceof Beepers) {
+                    String specialWord = ((Beepers) anim).getSpecialWord();
+
+                    for(int i = 0; i < specialWord.length(); i++) {
+                        String l = specialWord.substring(i,i +1);
+                        int count = 0;
+
+                        for(int i2 = 0; i2 < specialWord.length(); i2++) {
+                            if(i2 != i) {
+                                String l2 =specialWord.substring(i2,i2 + 1);
+
+                                if(l2.matches(l)) {
+                                    count++;
+                                }
+                            }
+                        }
+
+                        if(count > occured) {
+                            occured = count;
+                            bl = l;
+                        }
+                    }
+                }
+            }
+
+            System.out.println("Beepers favorite word is : " + bl);
         } catch(IOException e) {
             System.out.print(e);
         }

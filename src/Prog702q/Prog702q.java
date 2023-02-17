@@ -19,13 +19,13 @@ public class Prog702q {
 
                 if(type == 1) {
                     double worth = input.nextDouble();
-                    vehicles.add(new Car(type,name,tires,worth));
+                    vehicles.add(new Car(name,tires,worth));
                 } else if(type == 2) {
                     double miles = input.nextDouble();
-                    vehicles.add(new Truck(type,name,tires,miles));
+                    vehicles.add(new Truck(name,tires,miles));
                 } else {
                     String city = input.next();
-                    vehicles.add(new Buss(type,name,tires,city));
+                    vehicles.add(new Buss(name,tires,city));
                 }
             }
 
@@ -35,18 +35,18 @@ public class Prog702q {
             String truckName = "";
             String city = "";
             int length = 0;
-            int leastMiles = 1000000000;
+            double leastMiles = Double.MAX_VALUE;
             int t1 = 0;
             int t2 = 0;
             int t3 = 0;
 
             for(Vehicle vehicle : vehicles) {
-                if(vehicle.getType() == 1) {
+                if(vehicle instanceof Car) {
                     carWorth += vehicle.getValue();
                     t1 += vehicle.getTire();
                 }
 
-                if(vehicle.getType() == 3) {
+                if(vehicle instanceof  Buss) {
                     String c = ((Buss)vehicle).getCity();
 
                     if(c.length() > length) {
@@ -57,11 +57,11 @@ public class Prog702q {
                     t3 += vehicle.getTire();
                 }
 
-                if(vehicle.getType() == 2) {
+                if(vehicle instanceof Truck) {
                     double value = ((Truck)vehicle).getMiles();
 
-                    if(leastMiles < value) {
-                        leastMiles = (int)value;
+                    if(value < leastMiles) {
+                        leastMiles = value;
                         truckName = vehicle.getName();
                     }
 
@@ -77,7 +77,7 @@ public class Prog702q {
             System.out.println("Truck with least miles : " + leastMiles);
             System.out.println("Cars Tires : " + t1 + "\t" + "Truck Tires : " + t2 + "\t" + "Buss Tires : " + t3);
         } catch (IOException e) {
-
+            System.out.println(e);
         }
     }
 }

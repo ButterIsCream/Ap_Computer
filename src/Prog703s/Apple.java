@@ -2,8 +2,8 @@ package Prog703s;
 
 public class Apple extends Computer {
     private String color;
-    public Apple(String name,int number,double value,int type,String color) {
-        super(name,number,value,type);
+    public Apple(String name,int number,double value,String color) {
+        super(name,number,value);
         this.color = color;
     }
 
