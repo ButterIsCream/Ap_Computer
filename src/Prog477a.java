@@ -15,6 +15,11 @@ public class Prog477a {
                 i++;
             }
 
+            System.out.println("G\tM\tF\tTotal");
+
+            int tm = 0;
+            int tf = 0;
+
             for(int r0 = 0; r0 < 5; r0++) {
 
                 int g = r0 + 1;
@@ -29,14 +34,19 @@ public class Prog477a {
                     if(grade == g) {
                         if(gender == 1) {
                             m++;
+                            tm++;
                         } else {
                             f++;
+                            tf++;
                         }
                     }
                 }
 
                 System.out.println(g + "\t" + m + "\t" + f + "\t" + (f + m));
+
             }
+            System.out.println("-------------------");
+            System.out.println("T : " + tm + "\t" + tf + "\t" + (tm + tf));
         } catch(IOException e) {
             System.out.println(e);
         }
