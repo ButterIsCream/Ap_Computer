@@ -15,7 +15,7 @@ public class Prog477a {
                 i++;
             }
 
-            System.out.println("G\tM\tF\tTotal");
+            System.out.println("G\tM\tF\tTotal\n-------------------");
 
             int tm = 0;
             int tf = 0;
@@ -42,7 +42,10 @@ public class Prog477a {
                     }
                 }
 
-                System.out.println(g + "\t" + m + "\t" + f + "\t" + (f + m));
+                char letterGrade = (char)(64 + g);
+                if(letterGrade == 69) letterGrade = 'F';
+
+                System.out.println(letterGrade + "\t" + m + "\t" + f + "\t" + (f + m));
 
             }
             System.out.println("-------------------");
