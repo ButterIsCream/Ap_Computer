@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prog910b {
+public class Prog901aRec {
     public static String convert(int num,String b) {
         b += num % 2;
         num = num / 2;
