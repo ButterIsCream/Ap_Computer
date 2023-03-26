@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 3/25/2023">
-      <change afterPath="$PROJECT_DIR$/src/Prog505t/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog505t/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog505t/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prog505t/Prog505t.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/prog505t.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prog901aRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog910a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prog910b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog910b.java" afterDir="false" />
+    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 3/26/2023">
+      <change beforePath="$PROJECT_DIR$/src/Prog505t/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog505t/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog505t/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog505t/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog505t/Prog505t.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog505t/Prog505t.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog901a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog901a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679765119574</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="done 3/26/2023">
+      <created>1679870888420</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679870888420</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +390,7 @@
     <MESSAGE value="done 2/5/23" />
     <MESSAGE value="done 3/11/23" />
     <MESSAGE value="done 3/25/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 3/25/2023" />
+    <MESSAGE value="done 3/26/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 3/26/2023" />
   </component>
 </project>

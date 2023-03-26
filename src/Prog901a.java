@@ -18,6 +18,7 @@ public class Prog901a {
             newStr += line.substring(i - 1,i);
         }
 
+
         lines.set(index,newStr);
         backwards(lines,index + 1);
 

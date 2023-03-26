@@ -50,7 +50,6 @@ public class Prog505t {
                 }
             }
 
-            // ...
 
             double minHorse = Double.MAX_VALUE;
             int minHorseIndex = 0;

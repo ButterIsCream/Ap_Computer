@@ -1,6 +1,6 @@
 package Prog505t;
 
-import Prog505w.Animal;
+import Prog505t.Animal;
 
 public class Cow extends Animal {
     private double myMilk;
