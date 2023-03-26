@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 3/11/23">
-      <change afterPath="$PROJECT_DIR$/src/Prog505w/Prog505w.java" afterDir="false" />
+    <list default="true" id="5728b007-5085-4288-a42c-20512570d627" name="Changes" comment="done 3/25/2023">
+      <change afterPath="$PROJECT_DIR$/src/Prog505t/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog505t/Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog505t/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prog505t/Prog505t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/prog505t.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog901aRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog910a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prog910b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prog910b.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/peter/IdeaProjects/Ap_Computer/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/peter/IdeaProjects/Ap_Computer/src/data"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src" />
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\Prog702q" />
-      <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
       <recent name="C:\Users\kubala.p\IdeaProjects\Easy\src\data" />
       <recent name="C:\Users\Peter\IdeaProjects\AP_COMP\src\data" />
     </key>
@@ -53,10 +59,11 @@
       <recent name="C:\Users\peter\IdeaProjects\Ap_Computer\src\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Prog505t" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LP_5_6">
+  <component name="RunManager">
     <configuration name="LP_5_6" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LP_5_6" />
       <module name="Ap Computer" />
@@ -344,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678571292880</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="done 3/25/2023">
+      <created>1679765119574</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679765119574</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +386,7 @@
     <MESSAGE value="done 1/25/23" />
     <MESSAGE value="done 2/5/23" />
     <MESSAGE value="done 3/11/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="done 3/11/23" />
+    <MESSAGE value="done 3/25/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 3/25/2023" />
   </component>
 </project>
